@@ -12,7 +12,8 @@ def print_banner():
     banner = """
 ╔═══════════════════════════════════════════════════════════════╗
 ║                                                               ║
-║                      PANDAMANIA v1.0.0                        ║
+║                      PANDAMANIA v2.0.0                        ║
+║                    Phase 1 Complete Edition                   ║
 ║                                                               ║
 ║        Meta-Cognitive AIML Bot with Nested Loop Dynamics      ║
 ║                                                               ║
@@ -20,7 +21,8 @@ def print_banner():
     """
     print(banner)
     print("\nInitializing meta-cognitive architecture...")
-    print("Loading nested cognitive loops...\n")
+    print("Loading nested cognitive loops...")
+    print("Phase 1 enhancements: ✓ Complete\n")
 
 def list_aiml_files():
     """List all AIML files in the current directory"""
@@ -58,14 +60,20 @@ def show_instructions():
     print("   - config.aiml")
     print("   - bot.aiml")
     print("   - advanced_metacog.aiml")
-    print("   - layer4_metacog.aiml      [NEW - Phase 1]")
+    print("   - layer4_metacog.aiml      [Phase 1]")
     print("   - topics.aiml")
     print()
     print("   Domain Knowledge (Phase 1):")
-    print("   - math_logic.aiml          [NEW - Phase 1]")
-    print("   - programming_tech.aiml    [NEW - Phase 1]")
-    print("   - psychology_cognition.aiml [NEW - Phase 1]")
-    print("   - ethics_philosophy.aiml   [NEW - Phase 1]")
+    print("   - math_logic.aiml          [Phase 1]")
+    print("   - programming_tech.aiml    [Phase 1]")
+    print("   - psychology_cognition.aiml [Phase 1]")
+    print("   - ethics_philosophy.aiml   [Phase 1]")
+    print()
+    print("   Performance & NL (Phase 1 Complete):")
+    print("   - natural_language.aiml    [NEW - Phase 1 Complete] ✨")
+    print("   - performance_optimized.aiml [NEW - Phase 1 Complete] ✨")
+    print()
+    print("   Total: 11 AIML files, 406 patterns")
     print()
     print("3. Initialize the system:")
     print("   Input: SYSTEM INIT")
@@ -76,7 +84,9 @@ def show_instructions():
     print("5. Try these commands:")
     print("   - STATUS")
     print("   - LOOP STATUS")
-    print("   - FOURTH ORDER STATUS      [NEW - Phase 1]")
+    print("   - FOURTH ORDER STATUS      [Phase 1]")
+    print("   - PERFORMANCE             [NEW - Phase 1 Complete]")
+    print("   - CHECK EFFICIENCY        [NEW - Phase 1 Complete]")
     print("   - HELP")
     print("   - DIAGNOSTIC")
     print()
