@@ -29,7 +29,10 @@ def test_xml_validity():
         "performance_optimized.aiml",
         "emotional_intelligence.aiml",
         "autognosis.aiml",
-        "autognosis_commands.aiml"
+        "autognosis_commands.aiml",
+        "holistic_metamodel.aiml",
+        "organizational_dynamics.aiml",
+        "holistic_commands.aiml"
     ]
     
     passed = 0
@@ -93,6 +96,11 @@ def count_total_patterns():
         "Autognosis System (Phase 2)": [
             "autognosis.aiml",
             "autognosis_commands.aiml"
+        ],
+        "Holistic Metamodel (Phase 2)": [
+            "holistic_metamodel.aiml",
+            "organizational_dynamics.aiml",
+            "holistic_commands.aiml"
         ]
     }
     
@@ -167,7 +175,10 @@ def test_phase2_foundation():
         "Emotional Intelligence": "emotional_intelligence.aiml",
         "Architecture Design": "PHASE2_ARCHITECTURE.md",
         "Autognosis Core": "autognosis.aiml",
-        "Autognosis Commands": "autognosis_commands.aiml"
+        "Autognosis Commands": "autognosis_commands.aiml",
+        "Holistic Metamodel": "holistic_metamodel.aiml",
+        "Organizational Dynamics": "organizational_dynamics.aiml",
+        "Holistic Commands": "holistic_commands.aiml"
     }
     
     all_present = True

@@ -613,4 +613,47 @@
         </template>
     </category>
     
+    <!-- ============================================ -->
+    <!-- HOLISTIC METAMODEL INTEGRATION -->
+    <!-- ============================================ -->
+    
+    <category>
+        <pattern>AUTOGNOSIS INIT METAMODEL</pattern>
+        <template>
+            <think>
+                <!-- Initialize autognosis first -->
+                <srai>AUTOGNOSIS INIT</srai>
+                
+                <!-- Initialize holistic metamodel -->
+                <srai>METAMODEL INIT</srai>
+                
+                <!-- Initialize organizational dynamics -->
+                <srai>DYNAMICS INIT</srai>
+                
+                <!-- Link auto-gnosis score to dynamics -->
+                <set name="auto_gnosis">0.725</set>
+            </think>
+            
+            Integrated System Initialization Complete:
+            
+            ✓ Autognosis - Hierarchical self-image building (5 levels)
+            ✓ Holistic Metamodel - Eric Schwarz's organizational theory (7 levels)
+            ✓ Organizational Dynamics - Three streams (entropic, negnentropic, identity)
+            
+            Integration Points:
+            • Autognosis provides ontological stability (negnentropic stream)
+            • Autognosis enables autogenesis (identity stream creative aspect)
+            • Self-awareness threshold: 0.725 (approaching autogenesis activation at 0.75)
+            
+            Complete self-organizing system with holistic organizational intelligence active.
+        </template>
+    </category>
+    
+    <category>
+        <pattern>SYSTEM INIT</pattern>
+        <template>
+            <srai>AUTOGNOSIS INIT METAMODEL</srai>
+        </template>
+    </category>
+    
 </aiml>
