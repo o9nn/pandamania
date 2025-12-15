@@ -653,6 +653,7 @@
         <pattern>SYSTEM INIT</pattern>
         <template>
             <srai>AUTOGNOSIS INIT METAMODEL</srai>
+            <srai>INIT PATTERN GENERATION</srai>
         </template>
     </category>
     
